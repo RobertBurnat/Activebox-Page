@@ -1,0 +1,32 @@
+{
+  "name": "kodilla-ambitious-project2",
+  "version": "1.0.0",
+  "description": "Ambitious Project #2",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
+    "grunt-contrib-imagemin": "^2.0.0",
+    "grunt-sass": "^2.0.0"
+  },
+  "scripts": {
+    "test": "kodilla-tet"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RobertBurnat/ambitious-project-2.git"
+  },
+  "keywords": [
+    "grunt",
+    "project",
+    "git",
+    "ambitious"
+  ],
+  "author": "Robert Burnat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RobertBurnat/ambitious-project-2/issues"
+  },
+  "homepage": "https://github.com/RobertBurnat/ambitious-project-2#readme"
+}
