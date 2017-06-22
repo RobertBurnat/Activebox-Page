@@ -73,8 +73,6 @@ header {
     text-transform: uppercase; }
   .benefits p {
     color: #6c7279; }
-  .benefits [class*="col"] {
-    padding: 0 50px; }
 
 .gallery [class*="col-"] {
   padding: 0; }
