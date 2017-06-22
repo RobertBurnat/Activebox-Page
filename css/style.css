@@ -64,6 +64,8 @@ header {
 
 .benefits {
   text-align: center; }
+  .benefits [class*="col-"] {
+    padding: 20px 15px; }
   .benefits .fa {
     font-size: 60px;
     color: #e84545; }
@@ -118,6 +120,11 @@ header {
 
 .team .fa {
   color: #c6cacc;
-  line-height: 40px; }
+  line-height: 40px;
+  margin: 10px 0; }
+
+@media (max-width: 991px) {
+  header .slogan h1 {
+    font-size: 32px; } }
 
 /*# sourceMappingURL=style.css.map */
