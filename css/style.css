@@ -63,7 +63,6 @@ header {
         transform: scale(1.2); }
 
 .benefits {
-  margin: 50px;
   text-align: center; }
   .benefits .fa {
     font-size: 60px;
@@ -75,7 +74,7 @@ header {
   .benefits p {
     color: #6c7279; }
   .benefits [class*="col"] {
-    padding: 50px; }
+    padding: 0 50px; }
 
 .gallery [class*="col-"] {
   padding: 0; }
@@ -101,5 +100,26 @@ header {
   flex-direction: column;
   color: #fff;
   visibility: hidden; }
+
+.team img {
+  width: 100%; }
+
+.team span {
+  font-size: 13px;
+  color: #e84545; }
+
+.team p {
+  line-height: 21px;
+  margin: 20px 0; }
+
+.team i {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #ccc;
+  text-align: center; }
+
+.team .fa {
+  color: #c6cacc;
+  line-height: 40px; }
 
 /*# sourceMappingURL=style.css.map */
