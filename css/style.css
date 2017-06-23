@@ -1,7 +1,8 @@
 body {
   margin: 0 auto;
   font-family: "Raleway", sans-serif;
-  padding: 15px; }
+  padding: 15px;
+  overflow-x: hidden; }
 
 h5 {
   font-weight: 700; }
@@ -196,13 +197,11 @@ footer {
     margin: 25px auto; }
   header nav ul li {
     display: block; }
-  header .slogan {
-    margin-bottom: 15px; }
-    header .slogan h1 {
-      font-size: 24px; }
-    header .slogan p {
-      line-height: normal;
-      font-size: 15px; }
+  header .slogan h1 {
+    font-size: 24px; }
+  header .slogan p {
+    line-height: normal;
+    font-size: 15px; }
   .carousell img {
     height: 350px; }
   .carousell .carousel-caption {
@@ -228,6 +227,8 @@ footer {
         float: none; }
     header button {
       margin-top: 25px; }
+    header .slogan {
+      margin-bottom: 15px; }
   .carousell .carousel-indicators {
     bottom: 0;
     transform: translate(-50%); }
