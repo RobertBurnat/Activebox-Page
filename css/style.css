@@ -153,8 +153,7 @@ button {
 
 .carousel .item .row {
   margin: 0;
-  background-color: #53354a;
-  height: 560px; }
+  background-color: #53354a; }
 
 .carousel .carousel-indicators {
   left: 75%; }
@@ -227,10 +226,16 @@ footer {
         margin: 10px 0; }
       header nav ul {
         float: none; }
+    header button {
+      margin-top: 25px; }
   .carousell .carousel-indicators {
     bottom: 0;
     transform: translate(-50%); }
   .carousell img {
-    height: 350px; } }
+    height: 350px; }
+  .carousell .item .row {
+    margin: 0;
+    background-color: #53354a;
+    height: 560px; } }
 
 /*# sourceMappingURL=style.css.map */
