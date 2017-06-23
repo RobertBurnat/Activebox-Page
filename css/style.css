@@ -220,12 +220,11 @@ footer {
 @media (max-width: 991px) {
   header {
     text-align: center; }
-    header nav {
+    header nav img {
+      margin: 10px 0;
       padding: 0; }
-      header nav img {
-        margin: 10px 0; }
-      header nav ul {
-        float: none; }
+    header nav ul {
+      float: none; }
     header button {
       margin-top: 25px; }
   .carousell .carousel-indicators {
