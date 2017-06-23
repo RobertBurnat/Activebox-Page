@@ -10,10 +10,15 @@ h5 {
   margin: 50px auto; }
 
 header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   background: url("../images/layer.png");
-  height: 100vh;
-  position: relative; }
+  height: 100vh; }
   header nav {
+    position: absolute;
+    top: 0;
     padding: 35px 0; }
     header nav ul {
       padding: 0;
@@ -35,12 +40,8 @@ header {
           color: black;
           text-decoration: none; }
   header .slogan {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    max-width: 900px;
-    color: #fff; }
+    color: #fff;
+    max-width: 900px; }
     header .slogan h1 {
       text-transform: uppercase;
       font-size: 65px;
@@ -152,7 +153,8 @@ button {
 
 .carousel .item .row {
   margin: 0;
-  background-color: #53354a; }
+  background-color: #53354a;
+  height: 560px; }
 
 .carousel .carousel-indicators {
   left: 75%; }
@@ -186,25 +188,22 @@ footer {
     footer p span {
       color: #fff; }
 
-@media (max-width: 575px) {
+@media (max-height: 480px) {
   header {
-    height: 100vh;
-    text-align: center; }
-    header .row {
-      margin: 25px auto; }
-    header nav ul li {
-      display: block; }
-    header .slogan {
-      top: 40%;
-      left: 50%;
-      transform: translate(-50%); }
-      header .slogan h1 {
-        font-size: 24px; }
-      header .slogan p {
-        line-height: normal;
-        font-size: 15px; }
-      header .slogan button {
-        margin-top: 15px; }
+    justify-content: flex-end; } }
+
+@media (max-width: 575px) {
+  header .row {
+    margin: 25px auto; }
+  header nav ul li {
+    display: block; }
+  header .slogan {
+    margin-bottom: 15px; }
+    header .slogan h1 {
+      font-size: 24px; }
+    header .slogan p {
+      line-height: normal;
+      font-size: 15px; }
   .carousell img {
     height: 350px; }
   .carousell .carousel-caption {
@@ -212,12 +211,10 @@ footer {
     padding: 0; } }
 
 @media (min-width: 576px) and (max-width: 991px) {
-  header {
-    text-align: center; }
-    header nav ul li a {
-      padding: 0 6px; }
-    header .slogan h1 {
-      font-size: 32px; }
+  header nav ul li a {
+    padding: 0 6px; }
+  header .slogan h1 {
+    font-size: 32px; }
   .carousell .carousel-caption {
     font-size: 23px; } }
 
@@ -232,6 +229,8 @@ footer {
         float: none; }
   .carousell .carousel-indicators {
     bottom: 0;
-    transform: translate(-50%); } }
+    transform: translate(-50%); }
+  .carousell img {
+    height: 350px; } }
 
 /*# sourceMappingURL=style.css.map */
