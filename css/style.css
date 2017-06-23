@@ -49,17 +49,18 @@ header {
       line-height: 33px;
       font-size: 22px;
       font-weight: 300; }
-    header .slogan button {
-      text-transform: uppercase;
-      margin-top: 75px;
-      width: 200px;
-      height: 50px;
-      background-color: #e84545;
-      border: none;
-      line-height: 50px;
-      transition: 0.5s; }
-      header .slogan button:hover, header .slogan button:active {
-        transform: scale(1.2); }
+
+button {
+  text-transform: uppercase;
+  margin-top: 75px;
+  width: 200px;
+  height: 50px;
+  background-color: #e84545;
+  border: none;
+  line-height: 50px;
+  transition: 0.5s; }
+  button:hover, button:active {
+    transform: scale(1.2); }
 
 .benefits [class*="col-"] {
   padding: 20px 15px; }
@@ -156,20 +157,69 @@ header {
 .carousel .carousel-indicators {
   left: 75%; }
 
-@media (min-width: 576px) and (max-width: 991px) {
-  .carousell .carousel-caption {
-    font-size: 23px; } }
+.jumbo-down p {
+  font-weight: 700;
+  font-size: 13px; }
+
+.jumbo-down .downloader {
+  max-width: 300px;
+  color: #fff;
+  margin-top: 25px; }
+
+.main-footer {
+  background-color: #3a3e64;
+  color: #fff; }
+  .main-footer h5 {
+    text-transform: uppercase; }
+  .main-footer .h5-height {
+    line-height: 23px; }
+
+footer {
+  height: 100px;
+  background-color: #313454;
+  display: flex;
+  align-items: center; }
+  footer .fa {
+    color: #e84545; }
+  footer p {
+    color: #808080; }
+    footer p span {
+      color: #fff; }
 
 @media (max-width: 575px) {
   header {
+    height: 100vh;
     text-align: center; }
+    header .row {
+      margin: 25px auto; }
     header nav ul li {
       display: block; }
+    header .slogan {
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%); }
+      header .slogan h1 {
+        font-size: 24px; }
+      header .slogan p {
+        line-height: normal;
+        font-size: 15px; }
+      header .slogan button {
+        margin-top: 15px; }
   .carousell img {
     height: 350px; }
   .carousell .carousel-caption {
     font-size: 15px;
     padding: 0; } }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  header {
+    text-align: center; }
+    header nav ul li a {
+      padding: 0 6px; }
+    header .slogan h1 {
+      font-size: 32px; }
+  .carousell .carousel-caption {
+    font-size: 23px; } }
 
 @media (max-width: 991px) {
   header {
@@ -180,8 +230,6 @@ header {
         margin: 10px 0; }
       header nav ul {
         float: none; }
-    header .slogan h1 {
-      font-size: 32px; }
   .carousell .carousel-indicators {
     bottom: 0;
     transform: translate(-50%); } }
