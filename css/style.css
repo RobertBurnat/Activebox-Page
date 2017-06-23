@@ -30,7 +30,7 @@ header {
         text-decoration: none;
         text-transform: uppercase;
         color: #fff; }
-        header nav ul a:hover {
+        header nav ul a:hover, header nav ul a:active {
           background-color: #fff;
           color: black;
           text-decoration: none; }
@@ -40,8 +40,7 @@ header {
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 900px;
-    color: #fff;
-    text-align: center; }
+    color: #fff; }
     header .slogan h1 {
       text-transform: uppercase;
       font-size: 65px;
@@ -59,26 +58,27 @@ header {
       border: none;
       line-height: 50px;
       transition: 0.5s; }
-      header .slogan button:hover {
+      header .slogan button:hover, header .slogan button:active {
         transform: scale(1.2); }
 
-.benefits {
-  text-align: center; }
-  .benefits [class*="col-"] {
-    padding: 20px 15px; }
-  .benefits .fa {
-    font-size: 60px;
-    color: #e84545; }
-  .benefits h5 {
-    color: #2d3033;
-    line-height: 34px;
-    text-transform: uppercase; }
-  .benefits p {
-    color: #6c7279; }
+.benefits [class*="col-"] {
+  padding: 20px 15px; }
+
+.benefits .fa {
+  font-size: 60px;
+  color: #e84545; }
+
+.benefits h5 {
+  color: #2d3033;
+  line-height: 34px;
+  text-transform: uppercase; }
+
+.benefits p {
+  color: #6c7279; }
 
 .gallery [class*="col-"] {
   padding: 0; }
-  .gallery [class*="col-"]:hover .layer {
+  .gallery [class*="col-"]:hover .layer, .gallery [class*="col-"]:active .layer {
     visibility: visible; }
 
 .gallery img {
@@ -112,19 +112,78 @@ header {
   line-height: 21px;
   margin: 20px 0; }
 
-.team i {
+.social-medias i {
   width: 40px;
   height: 40px;
   border: 1px solid #ccc;
-  text-align: center; }
+  text-align: center;
+  transition: .5s; }
 
-.team .fa {
+.social-medias .fa {
   color: #c6cacc;
   line-height: 40px;
   margin: 10px 0; }
+  .social-medias .fa:hover, .social-medias .fa:active {
+    color: #4099FF;
+    background-color: #e84545;
+    transform: scale(1.2); }
+
+.carousel [class*="col-"] {
+  padding: 0; }
+
+.carousel .carousel-caption {
+  position: static;
+  text-align: left;
+  font-family: 'Cardo', cursive;
+  padding: 2vw 5vw;
+  font-size: 36px; }
+
+.carousel .sign {
+  font-size: 13px;
+  font-weight: 700;
+  font-style: bold;
+  margin: 30px 0;
+  font-family: 'Raleway', sans-serif; }
+
+.carousel img {
+  width: 100%;
+  height: 600px; }
+
+.carousel .item .row {
+  margin: 0;
+  background-color: #53354a; }
+
+.carousel .carousel-indicators {
+  left: 75%; }
+
+@media (min-width: 576px) and (max-width: 991px) {
+  .carousell .carousel-caption {
+    font-size: 23px; } }
+
+@media (max-width: 575px) {
+  header {
+    text-align: center; }
+    header nav ul li {
+      display: block; }
+  .carousell img {
+    height: 350px; }
+  .carousell .carousel-caption {
+    font-size: 15px;
+    padding: 0; } }
 
 @media (max-width: 991px) {
-  header .slogan h1 {
-    font-size: 32px; } }
+  header {
+    text-align: center; }
+    header nav {
+      padding: 0; }
+      header nav img {
+        margin: 10px 0; }
+      header nav ul {
+        float: none; }
+    header .slogan h1 {
+      font-size: 32px; }
+  .carousell .carousel-indicators {
+    bottom: 0;
+    transform: translate(-50%); } }
 
 /*# sourceMappingURL=style.css.map */
