@@ -207,7 +207,7 @@ footer {
     height: 350px; }
   .carousell .carousel-caption {
     font-size: 15px;
-    padding: 0; } }
+    padding: 5px; } }
 
 @media (min-width: 576px) and (max-width: 991px) {
   header nav ul li a {
@@ -215,7 +215,7 @@ footer {
   header .slogan h1 {
     font-size: 32px; }
   .carousell .carousel-caption {
-    font-size: 23px; } }
+    font-size: 20px; } }
 
 @media (max-width: 991px) {
   header {
@@ -231,11 +231,9 @@ footer {
   .carousell .carousel-indicators {
     bottom: 0;
     transform: translate(-50%); }
-  .carousell .carousel-caption {
-    text-align: center; }
   .carousell img {
     height: 350px; }
   .carousell .item .row {
-    height: 560px; } }
+    height: 570px; } }
 
 /*# sourceMappingURL=style.css.map */
