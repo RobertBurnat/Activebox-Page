@@ -207,8 +207,7 @@ footer {
     height: 350px; }
   .carousell .carousel-caption {
     font-size: 15px;
-    padding: 0;
-    text-align: center; } }
+    padding: 0; } }
 
 @media (min-width: 576px) and (max-width: 991px) {
   header nav ul li a {
@@ -232,6 +231,8 @@ footer {
   .carousell .carousel-indicators {
     bottom: 0;
     transform: translate(-50%); }
+  .carousell .carousel-caption {
+    text-align: center; }
   .carousell img {
     height: 350px; }
   .carousell .item .row {
