@@ -1,4 +1,4 @@
-# Ambitious Project #2
+# Activebox - Company page
 ###### - Install [**Node.js**](https://nodejs.org/en/download/)
 
 ###### - Open a command line window (Windows) or a terminal window (Mac & Linux) 
